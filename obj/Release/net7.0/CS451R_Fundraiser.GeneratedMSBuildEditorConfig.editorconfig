@@ -9,49 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CS451R_Fundraiser
 build_property.RootNamespace = CS451R_Fundraiser
-build_property.ProjectDir = C:\Users\Andrew Hemenway\Desktop\Fundraiser\CS451R_Fundraiser\
+build_property.ProjectDir = C:\Users\andre\OneDrive\Documents\GitHub\CS451R_Fundraiser\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Andrew Hemenway\Desktop\Fundraiser\CS451R_Fundraiser
+build_property.MSBuildProjectDirectory = C:\Users\andre\OneDrive\Documents\GitHub\CS451R_Fundraiser
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Home/Index.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Home/Privacy.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Home/Search.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Shared/Error.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/_ViewImports.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/_ViewStart.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrew Hemenway/Desktop/Fundraiser/CS451R_Fundraiser/Views/Shared/_Layout.cshtml]
+[C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9lwdyk1uc3
