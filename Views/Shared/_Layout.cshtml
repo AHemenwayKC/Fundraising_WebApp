@@ -36,6 +36,7 @@
         </nav>
     </header>
 
+    <!-- This loads the content based on the page you are on. Remains within overall layout. -->
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -45,10 +46,11 @@
     <!-- ===== Begin Footer ===== -->
     <footer class="border-top footer">
         <div class="container">
-            &copy; 2023 - Fundraisers - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div>&copy; 2023 - Fundraisers - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></div>
         </div>
     </footer>
     <!-- ===== End Footer ===== -->
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
