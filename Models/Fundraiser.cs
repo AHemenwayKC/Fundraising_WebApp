@@ -15,4 +15,11 @@ namespace CS451R_Fundraiser.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Goal { get; set; }
     }
+    
+    public class FundDBContext : DbContext
+    {
+        public FundDBContext()
+        { }
+        public DbSet<Fundraiser> Fundraisers { get; set; }
+    }
 }
