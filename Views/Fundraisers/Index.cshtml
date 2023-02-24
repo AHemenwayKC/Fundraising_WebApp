@@ -1,0 +1,65 @@
+﻿@model CS451R_Fundraiser.Models.FundraiserCategoryViewModel
+
+@{
+    ViewData["Title"] = "Fundraiser List";
+}
+
+<h1>Fundraiser List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Fundraisers" asp-action="Index" method="get">
+    <p>
+        <select asp-for="FundraiserCategory" asp-items="Model.Categories">
+            <option value="">All</option>
+        </select>
+        
+        Title: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fundraisers![0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fundraisers![0].PostDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fundraisers![0].Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fundraisers![0].Goal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Fundraisers!) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Goal)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
