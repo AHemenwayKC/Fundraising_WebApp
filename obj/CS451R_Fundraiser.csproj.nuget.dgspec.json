@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj": {}
+    "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj": {
+    "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+        "projectUniqueName": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
         "projectName": "CS451R_Fundraiser",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\obj\\",
+        "projectPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
+        "packagesPath": "/Users/rileybrookins/.nuget/packages/",
+        "outputPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rileybrookins/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +49,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -82,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace CS451R_Fundraiser.Models
 {
@@ -15,7 +16,7 @@ namespace CS451R_Fundraiser.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Goal { get; set; }
     }
-    
+
     public class FundDBContext : DbContext
     {
         public FundDBContext()
