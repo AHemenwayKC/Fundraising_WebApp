@@ -251,3 +251,5 @@ C:/Users/andre/OneDrive/Documents/GitHub/CS451R_Fundraiser/obj/Debug/net7.0/ref/
 /Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/Debug/net7.0/CS451R_Fundraiser.csproj.CopyComplete
 /Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/Debug/net7.0/CS451R_Fundraiser.genruntimeconfig.cache
 /Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/Debug/net7.0/ref/CS451R_Fundraiser.dll
+/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/bin/Debug/net7.0/Npgsql.dll
+/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
