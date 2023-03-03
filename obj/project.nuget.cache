@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "632xsfWyYAy51omVYTwZfOc6dIJYETOM/UISK/zaQ8exTs7KIKEw3/WVMvVSoFG9Q2rc/SsO7Psnc4k1J6C37w==",
+  "dgSpecHash": "bNsXH/xLLDhY+rWuOkYJTs27Dx2Q5ko3ZZOcnf2rDTsT6ZYnnSpEDUBs3rcCLdBliKa8+ZYLpr/S4LVn5zwFOg==",
   "success": true,
   "projectFilePath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,8 @@
     "/Users/rileybrookins/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/rileybrookins/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/rileybrookins/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/rileybrookins/.nuget/packages/npgsql/7.0.2/npgsql.7.0.2.nupkg.sha512",
+    "/Users/rileybrookins/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.3/npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "/Users/rileybrookins/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/rileybrookins/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/rileybrookins/.nuget/packages/system.configuration.configurationmanager/5.0.0/system.configuration.configurationmanager.5.0.0.nupkg.sha512",
