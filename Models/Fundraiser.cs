@@ -5,6 +5,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CS451R_Fundraiser.Models
 {
+
+    public class User
+    {
+        [Key]
+        public string? email { get; set; }
+        public string? name { get; set; }
+        public string? password { get; set; }
+        public List<Fundraiser> Fundraisers { get; set; }
+    }
     public class Fundraiser
     {
         public int Id { get; set; }
@@ -16,11 +25,5 @@ namespace CS451R_Fundraiser.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Goal { get; set; }
     }
-
-    public class FundDBContext : DbContext
-    {
-        public FundDBContext()
-        { }
-        public DbSet<Fundraiser> Fundraisers { get; set; }
-    }
 }
+

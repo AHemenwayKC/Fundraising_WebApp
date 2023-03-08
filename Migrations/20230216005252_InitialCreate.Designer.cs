@@ -37,6 +37,9 @@ namespace CS451R_Fundraiser.Migrations
                     b.Property<string>("Category")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UserEmail")
+                        .HasColumnType("text");
+
                     b.Property<decimal>("Goal")
                         .HasColumnType("decimal(18,2)");
 
@@ -48,8 +51,47 @@ namespace CS451R_Fundraiser.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Fundraiser");
+                    b.HasIndex("UserEmail");
+
+                    b.ToTable("Fundraisers");
                 });
+
+            modelBuilder.Entity("CS451R_Fundraiser.Models.User", b =>
+            {
+                //b.Property<int>("Id")
+                //    .ValueGeneratedOnAdd()
+                //    .HasColumnType("int");
+
+                //NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+
+                b.Property<string>("email")
+                    .HasColumnType("text");
+
+                NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("email"));
+
+                b.Property<string>("name")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("password")
+                    .HasColumnType("text");
+
+                b.HasKey("Id");
+
+                b.ToTable("Users");
+            });
+
+            modelBuilder.Entity("CS451R_Fundraiser.Models.Fundraiser", b =>
+            {
+                b.HasOne("CS451R_Fundraiser.Models.User", null)
+                    .WithMany("Fundraisers")
+                    .HasForeignKey("UserEmail");
+            });
+
+            modelBuilder.Entity("CS451R_Fundraiser.Models.User", b =>
+            {
+                b.Navigation("Fundraisers");
+            });
 #pragma warning restore 612, 618
         }
     }

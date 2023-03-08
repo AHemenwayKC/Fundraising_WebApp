@@ -11,8 +11,26 @@ namespace CS451R_Fundraiser.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+
             migrationBuilder.CreateTable(
-                name: "Fundraiser",
+            name: "Users",
+            columns: table => new
+            {
+                //Id = table.Column<int>(type: "int", nullable: false)
+                //        .Annotation("SqlServer:Identity", "1, 1"),
+                email = table.Column<string>(type: "string", nullable: false),
+                name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                password = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                Goal = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+            },
+            constraints: table =>
+            {
+                table.PrimaryKey("PK_User", x => x.email);
+            });
+
+
+            migrationBuilder.CreateTable(
+                name: "Fundraisers",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -20,12 +38,26 @@ namespace CS451R_Fundraiser.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PostDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Category = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Goal = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    Goal = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    UserEmail = table.Column<string>(type: "string", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Fundraiser", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Fundraisers_Users_UserEmail",
+                        column: x => x.UserEmail,
+                        principalTable: "Users",
+                        principalColumn: "email");
                 });
+
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Fundraisers_UserEmail",
+                table: "Fundraisers",
+                column: "UserEmail");
+
+
         }
 
         /// <inheritdoc />
