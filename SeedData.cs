@@ -26,31 +26,38 @@ namespace CS451R_Fundraiser
             //var fundraiser = context.Fundraiser.FirstOrDefault();
             //if (fundraiser != null) return;
 
-            context.Fundraiser.Add(new Fundraiser
+            context.User.Add(new User
             {
-                Id = 1234,
-                Title = "Help little Timmy get new legs",
-                PostDate = DateTime.Parse("2023-2-12"),
-                Category = "Prosthetics",
-                Goal = 100000
-            });
+                email = "hello@123.com",
+                name = "test name",
+                password = "1234",
+                Fundraisers = new List<Fundraiser>
+                {
+                    new Fundraiser{
+                        Id = 1234,
+                        Title = "Help little Timmy get new legs",
+                        PostDate = DateTime.Parse("2023-2-12"),
+                        Category = "Prosthetics",
+                        Goal = 100000
+                    },
 
-            context.Fundraiser.Add(new Fundraiser
-            {
-                Id = 1235,
-                Title = "Help me buy a new BMW",
-                PostDate = DateTime.Parse("2020-3-13"),
-                Category = "Transportation",
-                Goal = 85000
-            });
+                    new Fundraiser{
+                        Id = 1235,
+                        Title = "Help me buy a new BMW",
+                        PostDate = DateTime.Parse("2020-3-13"),
+                        Category = "Transportation",
+                        Goal = 85000
+                    },
 
-            context.Fundraiser.Add(new Fundraiser
-            {
-                Id = 1236,
-                Title = "My mom needs help paying for college",
-                PostDate = DateTime.Parse("2021-5-23"),
-                Category = "Education",
-                Goal = 25000
+                    new Fundraiser{
+                        Id = 1236,
+                        Title = "My mom needs help paying for college",
+                        PostDate = DateTime.Parse("2021-5-23"),
+                        Category = "Education",
+                        Goal = 25000
+                    }
+                }
+
             });
 
             context.SaveChanges();

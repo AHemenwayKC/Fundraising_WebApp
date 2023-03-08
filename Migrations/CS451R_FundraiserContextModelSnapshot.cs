@@ -23,29 +23,70 @@ namespace CS451R_Fundraiser.Migrations
             NpgsqlModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("CS451R_Fundraiser.Models.Fundraiser", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Category")
-                        .HasColumnType("nvarchar(max)");
+                b.Property<string>("Category")
+                    .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Goal")
-                        .HasColumnType("decimal(18,2)");
+                b.Property<string>("UserEmail")
+                    .HasColumnType("text");
 
-                    b.Property<DateTime>("PostDate")
-                        .HasColumnType("datetime2");
+                b.Property<decimal>("Goal")
+                    .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
+                b.Property<DateTime>("PostDate")
+                    .HasColumnType("datetime2");
 
-                    b.HasKey("Id");
+                b.Property<string>("Title")
+                    .HasColumnType("nvarchar(max)");
 
-                    b.ToTable("Fundraiser");
-                });
+                b.HasKey("Id");
+
+                b.HasIndex("UserEmail");
+
+                b.ToTable("Fundraisers");
+            });
+
+            modelBuilder.Entity("CS451R_Fundraiser.Models.User", b =>
+            {
+
+                //b.Property<int>("Id")
+                //    .ValueGeneratedOnAdd()
+                //    .HasColumnType("int");
+
+                //NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+
+                b.Property<string>("email")
+                    .HasColumnType("text");
+
+                NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("email"));
+
+                b.Property<string>("name")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("password")
+                    .HasColumnType("text");
+
+                b.ToTable("Users");
+            });
+
+            modelBuilder.Entity("CS451R_Fundraiser.Models.Fundraiser", b =>
+            {
+                b.HasOne("CS451R_Fundraiser.Models.User", null)
+                    .WithMany("Fundraisers")
+                    .HasForeignKey("UserEmail");
+            });
+
+            modelBuilder.Entity("CS451R_Fundraiser.Models.User", b =>
+            {
+                b.Navigation("Fundraisers");
+            });
 #pragma warning restore 612, 618
         }
     }

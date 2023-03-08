@@ -14,6 +14,8 @@ namespace CS451R_Fundraiser.Data
         {
         }
 
+        public DbSet<CS451R_Fundraiser.Models.User> User { get; set; } = default!;
         public DbSet<CS451R_Fundraiser.Models.Fundraiser> Fundraiser { get; set; } = default!;
+        
     }
 }
