@@ -1,18 +1,58 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<section class="text-center">
-    <h1 class="display-4">Start Your Fundraiser</h1>
-</section>
+<html>
+    <head>
+        <title>Blast Off</title>
+            <link href="@Url.Content("~/Content/StyleSheet.css")" rel="stylesheet" type="text/css" />
+    </head>
 
-<section id="text-center">
-    <div class="container">
-        <h2>About</h2>
-    </div>
-</section>
-
-<section id="hero">
-    <div id="hero-about"> Testing Hero Section</div>
-</section>
-
+    <body>
+        <header>
+        <img src="https://imgs.search.brave.com/1yLC4ZHRLbznqNHPcfaILkhJ4LMLQJ0rG9zQ_oFK6tM/rs:fit:800:708:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9mb250/LWRlc2lnbi1waHJh/c2UtYmxhc3Qtb2Zm/LXJvY2tldC13aGl0/ZS1iYWNrZ3JvdW5k/LWlsbHVzdHJhdGlv/bi0xNzY5NzAxMjAu/anBn"
+        <nav>
+            <ul>
+                <li><a href="#hero">/Home</a></li>
+                <li><a href="#about">/About</a></li>
+                <li><a href="#contact">/Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                <img src="<li><a href=" #hero">/Home</a></li>"
+                <h1>Blast Off</h1>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2>How it works</h2>
+                    <p>Start a new mission, spread public awareness, or contribute to an ongoing mission</p>
+                    <h3>Featured missions</h3>
+                    <ul>
+                        <li>Turkey and Syria Earthquakes</li>
+                        <li>Cancer Research</li>
+                        <li>College Scholarships</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>Contact us</h2>
+                    <p>Reach out to our support staff on our socials:</p>
+                    <ul>
+                        <li><a href="https://twitter.com/BlastOff">Twitter</a></li>
+                        <li><a href="https://www.reddit.com/user/BlastOff">Reddit</a></li>
+                        <li><a href="https://www.instagram.com/BlastOff/">Instagram</a></li>
+                    </ul>
+                    <p>Or, you can <a href="BlastOffSupport@gmail.com">send us an email</a>.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright Blast Off Inc. 2023
+        </footer>
+    </body>
+</html>
