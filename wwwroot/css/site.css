@@ -1,48 +1,81 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+body {
+    margin: 0;
+    margin-top: 100px;
+    font-family: sans-serif;
 }
 
 header {
-    background-color: #006747;
-    color: #ffffff;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    background-color: #eee;
 }
 
-body {
-  margin-bottom: 50px;
+    header * {
+        display: inline;
+        height: 100px;
+    }
+
+    header ul {
+        padding: 0;
+    }
+
+    header li {
+        margin-left: 50px;
+    }
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
-#hero {
-  width: 100%;
-  height: 70vh;
-  background-color: rgba(0, 0, 0, 0.5);
-
-  text-align: center;
-}
-
-#hero-about {
-    font-size: 24px;
-    color: #ffffff;
-    position: relative;
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
 }
 
 footer {
-  background: #006747;
-  color: #ffffff;
-  text-align: center;
-  padding: 30px 0;
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/9FFaMlu3o-dhstK0xjuazN3WDuCTbfQUS7nRL9DrrUM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuYnVzaW5lc3Np/bnNpZGVyLmNvbS9p/bWFnZS81ZDBkMDJm/ZGUzZWNiYTA1NzAz/NjE0YjMuanBn');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/oHGZ4XgJnl0XNgGyNYtLFPd0I_6oVh9ckU7R9F5aOeA/rs:fit:1200:1078:1/g:ce/aHR0cHM6Ly9ibHVl/c2t5Y29sbGFib3Jh/dGl2ZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMTAv/cm9ja2V0LTI2ODAy/ODJfMTkyMC5qcGc');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/_SXQAWnV8wZLZAm6tHYklBHJNP3jSdw9El7oHt1b1vc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy90aHVtYm5h/aWxzL2ltYWdlLzQy/Mzc0NzI1NTM0X2E2/NTNkMWI3Y2Jfay5q/cGc');
 }
