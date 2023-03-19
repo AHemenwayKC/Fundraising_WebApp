@@ -1,7 +1,10 @@
-html, body {
+body {
     margin: 0;
     font-family: sans-serif;
     height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -12,7 +15,7 @@ header {
     right: 0;
     height: 100px;
     line-height: 100px;
-    background-color: #eee;
+    background-color: #003566;
 }
 
     header * {
@@ -30,6 +33,7 @@ header {
 
 .navbar {
     padding: 0;
+    background-color: #FFD60A;
 }
 
 .navbar ul {
@@ -74,19 +78,28 @@ header a {
 }
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/9FFaMlu3o-dhstK0xjuazN3WDuCTbfQUS7nRL9DrrUM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuYnVzaW5lc3Np/bnNpZGVyLmNvbS9p/bWFnZS81ZDBkMDJm/ZGUzZWNiYTA1NzAz/NjE0YjMuanBn');
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/homePageImage1.jpg');
 }
 
-/*#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/oHGZ4XgJnl0XNgGyNYtLFPd0I_6oVh9ckU7R9F5aOeA/rs:fit:1200:1078:1/g:ce/aHR0cHM6Ly9ibHVl/c2t5Y29sbGFib3Jh/dGl2ZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMTAv/cm9ja2V0LTI2ODAy/ODJfMTkyMC5qcGc');
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/homePageImage2.jpg');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/_SXQAWnV8wZLZAm6tHYklBHJNP3jSdw9El7oHt1b1vc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy90aHVtYm5h/aWxzL2ltYWdlLzQy/Mzc0NzI1NTM0X2E2/NTNkMWI3Y2Jfay5q/cGc');
-}*/
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../images/homePageImage3.jpg');
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 footer {
     text-align: center;
     padding: 30px 0;
     position: absolute;
+    bottom: 0;
+    background-color: #003566;
+    margin-top: auto;
+    text-decoration-color: #FFD60A;
 }
