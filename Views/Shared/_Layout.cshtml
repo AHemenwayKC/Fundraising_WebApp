@@ -11,7 +11,7 @@
 <body>
     <!-- ===== Begin Header ===== -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/blastOffRocket.png" height="100px" width="100px" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -34,7 +34,7 @@
     </header>
 
     <!-- This loads the content based on the page you are on. Remains within overall layout. -->
-    <div class="container">
+    <div class="wrapper">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -44,7 +44,8 @@
     <footer class="border-top footer">
         <div class="container">
             <h4>BlastOff</h4>
-            <div>&copy; Copyright Blast Off Inc. 2023 All Rights Reserved<a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></div>
+            <div>&copy; Copyright Blast Off Inc. 2023 All Rights Reserved</div>
+            <div><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></div>
         </div>
     </footer>
     <!-- ===== End Footer ===== -->
