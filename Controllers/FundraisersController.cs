@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,12 +19,20 @@ namespace CS451R_Fundraiser.Controllers
             _context = context;
         }
 
+        [HttpPost]
+        [Route("Launch")]
+        public IActionResult Launch()
+        {
+            return View("Launch");
+        }
+        
+        
         // GET: Fundraisers
         public async Task<IActionResult> Index(string fundraiserCategory, string searchString)
         {
             if (_context.Fundraiser == null)
             {
-                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+                return Problem("Entity set 'CS451R_Fundraisers.Fundraisers'  is null.");
             }
 
             // Use LINQ to get list of genres.

@@ -13,3 +13,4 @@ Task list: (Put initials next to the task(s) you're working on)
 - Create model for donations (RB) - Completed
 - Add attributes for credit card in the user model (RB) - Completed
 - Update Navbar logo to home page and fundraisers to correct page (AH) - Completed
+- Fix login partial and add login and register Functionality with the db (RB) - Completed
