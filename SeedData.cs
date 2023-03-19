@@ -28,10 +28,10 @@ namespace CS451R_Fundraiser
 
             context.User.Add(new User
             {
-                email = "hello@123.com",
-                name = "test name",
-                password = "1234",
-                card = "123456789",
+                //email = "hello@123.com",
+                //name = "test name",
+                //password = "1234",
+                //card = "123456789",
                 Fundraisers = new List<Fundraiser>
                 {
                     new Fundraiser{

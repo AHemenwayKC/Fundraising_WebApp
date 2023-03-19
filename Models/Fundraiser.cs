@@ -2,17 +2,18 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace CS451R_Fundraiser.Models
 {
 
-    public class User
+    public class User : IdentityUser
     {
-        [Key]
-        public string? email { get; set; }
-        public string? name { get; set; }
-        public string? password { get; set; }
-        public string? card { get; set; }
+        //[Key]
+        //public string? email { get; set; }
+        //public string? name { get; set; }
+        //public string? password { get; set; }
+        //public string? card { get; set; }
         public List<Fundraiser> Fundraisers { get; set; }
     }
     public class Fundraiser
