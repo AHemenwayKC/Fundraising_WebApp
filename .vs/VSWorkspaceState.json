@@ -6,6 +6,6 @@
     "\\Views\\Shared",
     "\\wwwroot"
   ],
-  "SelectedNode": "\\wwwroot",
+  "SelectedNode": "\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
