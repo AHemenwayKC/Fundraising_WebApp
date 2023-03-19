@@ -10,5 +10,5 @@ Task list: (Put initials next to the task(s) you're working on)
 - Design home page in HTML/CSS (KH/DH) - Completed
 - Design user profile page in HTML/CSS (AY)
 - Create model for user account data (RB) - Completed
-- Create model for donations (RB)
-- Add attributes for credit card in the user model (RB)
+- Create model for donations (RB) - Completed
+- Add attributes for credit card in the user model (RB) - Completed
