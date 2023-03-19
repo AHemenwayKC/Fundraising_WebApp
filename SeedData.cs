@@ -31,6 +31,7 @@ namespace CS451R_Fundraiser
                 email = "hello@123.com",
                 name = "test name",
                 password = "1234",
+                card = "123456789",
                 Fundraisers = new List<Fundraiser>
                 {
                     new Fundraiser{
@@ -54,7 +55,18 @@ namespace CS451R_Fundraiser
                         Title = "My mom needs help paying for college",
                         PostDate = DateTime.Parse("2021-5-23"),
                         Category = "Education",
-                        Goal = 25000
+                        Goal = 25000,
+                        Donations = new List<Donation>
+                        {
+                           new Donation{
+                                Id = 22,
+                                amount = 100,
+                                donateDate = DateTime.Parse("2021-5-25"),
+                                userName = "test name"
+
+                            }
+                        }
+                       
                     }
                 }
 

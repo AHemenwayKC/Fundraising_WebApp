@@ -63,12 +63,23 @@ namespace CS451R_Fundraiser.Controllers
 
             var fundraiser = await _context.Fundraiser
                 .FirstOrDefaultAsync(m => m.Id == id);
+            var donations = _context.Donation
+                                .Where(b => b.fundraiserId.Equals(fundraiser.Id));
+
+
             if (fundraiser == null)
             {
                 return NotFound();
             }
 
-            return View(fundraiser);
+            var fundraiserDonationvm = new FundraiserDonationViewModel
+            {
+                Fundraiser = fundraiser,
+                Donations = await donations.ToListAsync()
+                
+            };
+
+            return View(fundraiserDonationvm);
         }
 
         // GET: Fundraisers/Create
