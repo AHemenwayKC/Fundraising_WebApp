@@ -11136,24 +11136,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/rileybrookins/.nuget/packages/": {}
+    "C:\\Users\\kyleh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
+      "projectUniqueName": "C:\\Users\\kyleh\\Source\\Repos\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
       "projectName": "CS451R_Fundraiser",
-      "projectPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
-      "packagesPath": "/Users/rileybrookins/.nuget/packages/",
-      "outputPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/",
+      "projectPath": "C:\\Users\\kyleh\\Source\\Repos\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+      "packagesPath": "C:\\Users\\kyleh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kyleh\\Source\\Repos\\CS451R_Fundraiser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rileybrookins/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kyleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11236,7 +11238,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
