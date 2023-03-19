@@ -11,20 +11,24 @@
 <body>
     <!-- ===== Begin Header ===== -->
     <header>
-        <nav id="navbar" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <a id="blogo" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/blastOffRocket.png" height="100px" width="100px" /></a>
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/blastOffRocket.png" height="100px" width="100px" /></a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
+                        @*<li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Fundraisers" asp-action="Index">Fundraisers</a>
-                        </li>
+                        </li>*@
                         <li class="nav-item">
                             <a class="nav-link row" asp-area="" asp-controller="Home" asp-action="Search">Contact</a>
+                        </li>
+                        <li <a class="nav-link" asp-area="">Launch a Fundraiser</a>
+
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -41,7 +45,7 @@
     </div>
 
     <!-- ===== Begin Footer ===== -->
-    <footer class="border-top footer">
+    <footer id="footer" class="border-top footer">
         <div class="container">
             <h4>BlastOff</h4>
             <div>&copy; Copyright Blast Off Inc. 2023 All Rights Reserved</div>
@@ -51,6 +55,7 @@
     <!-- ===== End Footer ===== -->
 
 
+    <!-- ===== JS & Bootstrap Files ===== -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
