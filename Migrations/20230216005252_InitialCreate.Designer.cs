@@ -76,17 +76,58 @@ namespace CS451R_Fundraiser.Migrations
                 b.Property<string>("password")
                     .HasColumnType("text");
 
-                b.HasKey("Id");
+                b.Property<string>("card")
+                    .HasColumnType("text");
+
+                b.HasKey("email");
 
                 b.ToTable("Users");
             });
 
+            modelBuilder.Entity("CS451R_Fundraiser.Models.Donation", b =>
+            {
+
+
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int");
+
+                NpgsqlPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                b.Property<string>("amount")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<string>("userName")
+                    .HasColumnType("nvarchar(max)");
+
+                b.Property<DateTime>("PostDate")
+                    .HasColumnType("datetime2");
+
+                b.Property<string>("fundraiserId")
+                    .HasColumnType("int");
+
+                b.HasKey("Id");
+
+                b.HasIndex("fundraiserId");
+
+                b.ToTable("Donations");
+            });
+
             modelBuilder.Entity("CS451R_Fundraiser.Models.Fundraiser", b =>
             {
+                //b.Navigation("Donations");
                 b.HasOne("CS451R_Fundraiser.Models.User", null)
                     .WithMany("Fundraisers")
                     .HasForeignKey("UserEmail");
             });
+
+            //modelBuilder.Entity("CS451R_Fundraiser.Models.Donation", b =>
+            //{
+
+            //    b.HasOne("CS451R_Fundraiser.Models.Fundraiser", null)
+            //        .WithMany("Donations")
+            //        .HasForeignKey("fundraiserId");
+            //});
 
             modelBuilder.Entity("CS451R_Fundraiser.Models.User", b =>
             {

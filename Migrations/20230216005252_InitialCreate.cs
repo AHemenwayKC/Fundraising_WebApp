@@ -21,7 +21,7 @@ namespace CS451R_Fundraiser.Migrations
                 email = table.Column<string>(type: "string", nullable: false),
                 name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                 password = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                Goal = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                card = table.Column<decimal>(type: "string", nullable: true)
             },
             constraints: table =>
             {
@@ -57,6 +57,27 @@ namespace CS451R_Fundraiser.Migrations
                 table: "Fundraisers",
                 column: "UserEmail");
 
+
+            migrationBuilder.CreateTable(
+                name: "Donations",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    amount = table.Column<string>(type: "int", nullable: false),
+                    donateDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    userName = table.Column<string>(type: "string", nullable: true),
+                    fundraiserId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Donation", x => x.Id);
+                    //table.ForeignKey(
+                    //    name: "FK_Donations_Fundraisers_fundraiserId",
+                    //    column: x => x.fundraiserId,
+                    //    principalTable: "Fundraisers",
+                    //    principalColumn: "Id");
+                });
 
         }
 
