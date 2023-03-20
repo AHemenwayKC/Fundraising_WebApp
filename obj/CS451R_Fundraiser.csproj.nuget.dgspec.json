@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj": {}
+    "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj": {
+    "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+        "projectUniqueName": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
         "projectName": "CS451R_Fundraiser",
-        "projectPath": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
-        "packagesPath": "C:\\Users\\kyleh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\obj\\",
+        "projectPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
+        "packagesPath": "/Users/rileybrookins/.nuget/packages/",
+        "outputPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kyleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rileybrookins/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +49,12 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -104,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
