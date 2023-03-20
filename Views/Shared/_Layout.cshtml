@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Fundraisers</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CS451R_Fundraiser.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
     <!-- ===== Begin Header ===== -->
@@ -21,12 +21,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        @*<li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Fundraisers" asp-action="Index">Fundraisers</a>
-                        </li>*@
                         <li class="nav-item">
-                            <a class="nav-link row" asp-area="" asp-controller="Home" asp-action="Search">Contact</a>
+                            <a class="nav-link" asp-area="" asp-controller="Fundraisers" asp-action="Index">Fundraisers</a>
                         </li>
+                        @*<li class="nav-item">
+                            <a class="nav-link row" asp-area="" asp-controller="Home" asp-action="Search">Contact</a>
+                        </li>*@
                         <li class="nav-item"> 
                             <a class="nav-link row" asp-area="" asp-controller="Fundraisers" asp-action="Create">Launch a Fundraiser</a>
                         </li>
@@ -47,9 +47,10 @@
     <!-- ===== Begin Footer ===== -->
     <footer id="footer" class="border-top footer">
         <div class="container">
-            <h4>BlastOff</h4>
-            <div>&copy; Copyright Blast Off Inc. 2023 All Rights Reserved</div>
-            <div><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></div>
+            <h3>BlastOff</h3>
+            <div class="credits"> Design by: Andrew Hemenway | Arya Yazdi | Kyle Helm | Riley Brookins</div>
+            <div class="copyright">&copy; Copyright Blast Off Inc. 2023 All Rights Reserved</div>
+            <div class="privacy"><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></div>
         </div>
     </footer>
     <!-- ===== End Footer ===== -->

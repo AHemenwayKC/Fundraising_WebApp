@@ -1,13 +1,13 @@
-/* ----- Begin General Settings ----- */
+/* ----- Begin General ----- */
 body {
     margin: 0;
     font-family: sans-serif;
     height: 100%;
 }
-/* ----- End General Settings ----- */
+/* ----- End General ----- */
 
 
-/* ----- Begin Header Settings ----- */
+/* ----- Begin Header ----- */
 header {
     display: flex;
     position: fixed;
@@ -31,10 +31,13 @@ header {
     header li {
         margin-left: 5px;
     }
-/* ----- End Header Settings ----- */
+/* ----- End Header ----- */
 
 
-/* ----- Begin navbar Settings ----- */
+/* ----- Begin navbar ----- */
+#blogo {
+    marg
+}
 .navbar {
     padding: 0;
     box-shadow: none;
@@ -57,7 +60,14 @@ header {
     justify-content: space-between;
 
 }
-/* ----- End navbar Settings ----- */
+
+#login {
+    color: #ff0000;
+    padding: 8px 25px;
+    border: 2px solid #ff0000;
+    text-align: right;
+}
+/* ----- End navbar ----- */
 
 
 
@@ -107,12 +117,19 @@ html {
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/_SXQAWnV8wZLZAm6tHYklBHJNP3jSdw9El7oHt1b1vc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy90aHVtYm5h/aWxzL2ltYWdlLzQy/Mzc0NzI1NTM0X2E2/NTNkMWI3Y2Jfay5q/cGc');
 }
-
+/* ----- Begin Footer ----- */
 #footer {
     text-align: center;
     padding: 20px 0;
-    line-height: 2:
+    line-height: 2;
 }
-#footer h4 {
+#footer h3 {
     margin: 0;
+    color: red;
 }
+
+#privacy {
+    color: green;
+    text-decoration: none;
+}
+/* ----- End Footer ----- */

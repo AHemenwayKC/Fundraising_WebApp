@@ -11136,19 +11136,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kyleh\\.nuget\\packages\\": {}
+    "C:\\Users\\Andrew Hemenway\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
       "projectName": "CS451R_Fundraiser",
-      "projectPath": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
-      "packagesPath": "C:\\Users\\kyleh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\obj\\",
+      "projectPath": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+      "packagesPath": "C:\\Users\\Andrew Hemenway\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kyleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrew Hemenway\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11238,7 +11238,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
