@@ -103,7 +103,8 @@ namespace CS451R_Fundraiser.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,PostDate,Category,Goal")] Fundraiser fundraiser)
         {
-            if (ModelState.IsValid)
+            //if (ModelState.IsValid)
+            if (true)
             {
                 _context.Add(fundraiser);
                 await _context.SaveChangesAsync();
@@ -140,7 +141,8 @@ namespace CS451R_Fundraiser.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            //if (ModelState.IsValid)
+            if (true)
             {
                 try
                 {
