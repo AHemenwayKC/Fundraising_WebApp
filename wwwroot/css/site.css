@@ -84,27 +84,22 @@ section {
     background-attachment: fixed; 
 }
 
+/* ----- Begin Hero ----- */
 #hero .profile-img {
     width: 300px;
-    border-radius: 50%;
 }
 
 #hero h1 {
     font-size: 3em;
 }
 
-section h2 {
-    font-size: 2.5em;
-}
-
-section h3 {
-    font-size: 1.5em;
-}
-
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/9FFaMlu3o-dhstK0xjuazN3WDuCTbfQUS7nRL9DrrUM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuYnVzaW5lc3Np/bnNpZGVyLmNvbS9p/bWFnZS81ZDBkMDJm/ZGUzZWNiYTA1NzAz/NjE0YjMuanBn');
 }
+/* ----- End Hero ----- */
 
+
+/* ----- Begin IDK where to put this stuff yet ----- */
 html {
     position: relative;
     min-height: 100%;
@@ -117,6 +112,8 @@ html {
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/_SXQAWnV8wZLZAm6tHYklBHJNP3jSdw9El7oHt1b1vc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy90aHVtYm5h/aWxzL2ltYWdlLzQy/Mzc0NzI1NTM0X2E2/NTNkMWI3Y2Jfay5q/cGc');
 }
+/* ----- End IDK where to put this stuff yet ----- */
+
 /* ----- Begin Footer ----- */
 #footer {
     text-align: center;

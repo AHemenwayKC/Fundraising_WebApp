@@ -3,6 +3,7 @@
     "",
     "\\Controllers",
     "\\Views",
+    "\\Views\\Fundraisers",
     "\\Views\\Home",
     "\\Views\\Shared",
     "\\wwwroot",
