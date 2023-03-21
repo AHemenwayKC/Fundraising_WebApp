@@ -14,7 +14,7 @@ namespace CS451R_Fundraiser.Models
         //public string? name { get; set; }
         //public string? password { get; set; }
         //public string? card { get; set; }
-        public List<Fundraiser> Fundraisers { get; set; }
+        public List<Fundraiser>? Fundraisers { get; set; }
     }
     public class Fundraiser
     {
@@ -26,7 +26,7 @@ namespace CS451R_Fundraiser.Models
         public string? Category { get; set; }
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Goal { get; set; }
-        public List<Donation> Donations { get; set; }
+        public List<Donation>? Donations { get; set; }
     }
     public class Donation
     {

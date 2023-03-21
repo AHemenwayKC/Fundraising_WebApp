@@ -104,6 +104,7 @@ namespace CS451R_Fundraiser.Controllers
         public async Task<IActionResult> Create([Bind("Id,Title,PostDate,Category,Goal")] Fundraiser fundraiser)
         {
             if (ModelState.IsValid)
+            //if (true)
             {
                 _context.Add(fundraiser);
                 await _context.SaveChangesAsync();
@@ -140,7 +141,22 @@ namespace CS451R_Fundraiser.Controllers
                 return NotFound();
             }
 
+            //foreach (var modelStateKey in ViewData.ModelState.Keys)
+            //{
+            //    var modelStateVal = ViewData.ModelState[modelStateKey];
+            //    foreach (var error in modelStateVal.Errors)
+            //    {
+            //        var key = modelStateKey;
+            //        var errorMessage = error.ErrorMessage;
+            //        var exception = error.Exception;
+            //        System.Diagnostics.Debug.WriteLine(key);
+            //        System.Diagnostics.Debug.WriteLine(errorMessage);
+            //        System.Diagnostics.Debug.WriteLine(exception);
+            //    }
+            //}
+
             if (ModelState.IsValid)
+            //if (true)
             {
                 try
                 {

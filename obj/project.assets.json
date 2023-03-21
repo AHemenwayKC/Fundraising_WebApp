@@ -11488,26 +11488,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrew Hemenway\\.nuget\\packages\\": {}
+    "/Users/rileybrookins/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+      "projectUniqueName": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
       "projectName": "CS451R_Fundraiser",
-      "projectPath": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
-      "packagesPath": "C:\\Users\\Andrew Hemenway\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\obj\\",
+      "projectPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/CS451R_Fundraiser.csproj",
+      "packagesPath": "/Users/rileybrookins/.nuget/packages/",
+      "outputPath": "/Users/rileybrookins/Documents/cs451/CS451R_Fundraiser/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Andrew Hemenway\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/rileybrookins/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11596,16 +11594,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
