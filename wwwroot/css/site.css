@@ -89,24 +89,63 @@ section {
 /* ----- Sections End ----- */
 
 /* ----- Begin Hero ----- */
-#hero .profile-img {
-    width: 300px;
-}
-
-#hero h1 {
-    font-size: 3em;
-}
-
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/9FFaMlu3o-dhstK0xjuazN3WDuCTbfQUS7nRL9DrrUM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuYnVzaW5lc3Np/bnNpZGVyLmNvbS9p/bWFnZS81ZDBkMDJm/ZGUzZWNiYTA1NzAz/NjE0YjMuanBn');
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+}
+
+#hero h2 {
+    margin-bottom: 25px;
+    font-size: 36px;
 }
 /* ----- End Hero ----- */
 
+
 /* ----- Begin Milestones ----- */
-.main {
-    padding: 0;
+#milestones {
+    padding: 20px 0;
+    background-color: #172066;
+    
+}
+
+.milestones .section-title {
+    color: #eee;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+#milestone-box {
+    border: 5px #eee;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 20px;
+    box-sizing: inherit;
+}
+
+.milestones .title {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.milestones .title a {
+    color: #eee;
+    transition: 0.3s;
+}
+
+.milestones .title a:hover {
+    color: #c20c0c;
+}
+
+.milestone-numbers {
+    color: #eee;
+    font-size: 20px;
+    padding: 10px;
 }
 /* ----- End Milestones ----- */
+
 
 /* ----- Begin IDK where to put this stuff yet ----- */
 html {
@@ -122,6 +161,7 @@ html {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/_SXQAWnV8wZLZAm6tHYklBHJNP3jSdw9El7oHt1b1vc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy90aHVtYm5h/aWxzL2ltYWdlLzQy/Mzc0NzI1NTM0X2E2/NTNkMWI3Y2Jfay5q/cGc');
 }
 /* ----- End IDK where to put this stuff yet ----- */
+
 
 /* ----- Begin Footer ----- */
 #footer {
