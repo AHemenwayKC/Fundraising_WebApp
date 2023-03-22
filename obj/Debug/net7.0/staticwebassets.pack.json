@@ -17,16 +17,16 @@
       "PackagePath": "staticwebassets\\images\\blastOffRocket.png"
     },
     {
-      "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\homePageImage1.jpg",
-      "PackagePath": "staticwebassets\\images\\homePageImage1.jpg"
+      "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\herobackground.jpg",
+      "PackagePath": "staticwebassets\\images\\herobackground.jpg"
     },
     {
-      "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\homePageImage2.jpg",
-      "PackagePath": "staticwebassets\\images\\homePageImage2.jpg"
+      "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\launcharchway.jpg",
+      "PackagePath": "staticwebassets\\images\\launcharchway.jpg"
     },
     {
-      "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\homePageImage3.jpg",
-      "PackagePath": "staticwebassets\\images\\homePageImage3.jpg"
+      "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\launchpad.jpg",
+      "PackagePath": "staticwebassets\\images\\launchpad.jpg"
     },
     {
       "Id": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gKf16hw2a6oAjz74hxmqHQ3nsmqwYZw8pF5vPUtYGDQ=",
+  "Hash": "sNOeRe31Ztp9J/trBZcri4KoVfA+dceXmz7/3ARp5Y8=",
   "Source": "CS451R_Fundraiser",
   "BasePath": "_content/CS451R_Fundraiser",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\images\\blastOffRocket.png"
     },
     {
-      "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\homePageImage1.jpg",
+      "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\herobackground.jpg",
       "SourceId": "CS451R_Fundraiser",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\",
       "BasePath": "_content/CS451R_Fundraiser",
-      "RelativePath": "images/homePageImage1.jpg",
+      "RelativePath": "images/herobackground.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,15 +1136,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homePageImage1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\herobackground.jpg"
     },
     {
-      "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\homePageImage2.jpg",
+      "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\launcharchway.jpg",
       "SourceId": "CS451R_Fundraiser",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\",
       "BasePath": "_content/CS451R_Fundraiser",
-      "RelativePath": "images/homePageImage2.jpg",
+      "RelativePath": "images/launcharchway.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,15 +1153,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homePageImage2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\launcharchway.jpg"
     },
     {
-      "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\homePageImage3.jpg",
+      "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\images\\launchpad.jpg",
       "SourceId": "CS451R_Fundraiser",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\",
       "BasePath": "_content/CS451R_Fundraiser",
-      "RelativePath": "images/homePageImage3.jpg",
+      "RelativePath": "images/launchpad.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,7 +1170,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homePageImage3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\launchpad.jpg"
     },
     {
       "Identity": "C:\\Users\\Andrew Hemenway\\Documents\\GitHub\\CS451R_Fundraiser\\wwwroot\\js\\site.js",

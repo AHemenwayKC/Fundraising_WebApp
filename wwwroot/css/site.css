@@ -20,7 +20,7 @@ header {
 }
 
     header * {
-        display: inline;
+        display: inline-flex;
         height: 100px;
     }
 
@@ -35,9 +35,6 @@ header {
 
 
 /* ----- Begin navbar ----- */
-#blogo {
-    marg
-}
 .navbar {
     padding: 0;
     box-shadow: none;
@@ -70,9 +67,9 @@ header {
 /* ----- End navbar ----- */
 
 
-
+/* ----- Sections Begin ----- */
 section {
-    height: 100vh;
+    padding: 500px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -81,8 +78,15 @@ section {
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* ----- Sections End ----- */
 
 /* ----- Begin Hero ----- */
 #hero .profile-img {
@@ -98,6 +102,11 @@ section {
 }
 /* ----- End Hero ----- */
 
+/* ----- Begin Milestones ----- */
+.main {
+    padding: 0;
+}
+/* ----- End Milestones ----- */
 
 /* ----- Begin IDK where to put this stuff yet ----- */
 html {

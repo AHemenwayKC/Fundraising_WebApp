@@ -38,7 +38,4 @@
     <None Remove="Npgsql" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\images\" />
-  </ItemGroup>
 </Project>

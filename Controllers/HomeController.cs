@@ -18,12 +18,12 @@ namespace CS451R_Fundraiser.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Search()
         {
             return View();
         }
 
-        public IActionResult Search()
+        public IActionResult Dashboard()
         {
             return View();
         }
