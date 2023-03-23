@@ -4,7 +4,7 @@ Task list: (Put initials next to the task(s) you're working on)
 - Setup MVC web app project (KH/DH) - Completed
 - Create fundraiser controller (KH) - Completed
 - Link PostgreSQL server to web app (RB) - Completed
-- Create login partial (KH)
+- Create login partial (RB) - Completed
 - Create user account controller (KH)
 - Design fundraiser creation page in HTML/CSS (KH)
 - Design home page in HTML/CSS (KH/DH) - Completed
@@ -15,3 +15,11 @@ Task list: (Put initials next to the task(s) you're working on)
 - Update Navbar logo to home page and fundraisers to correct page (AH) - Completed
 - Fix login partial and add login and register Functionality with the db (RB) - Completed
 - When "Launch a Fundraiser" is selected from navbar, end user should be prompted to create an account or login before being directed to fundraiser page. -(KH/RB)
+
+Primary Objectives:
+- Front end:
+   - Landing page (DH)
+   - User dashboard (AY)
+- Back end:
+   - Linking fundraisers to specific users (KH)
+   - Creating donation features from one user to another (RB)
