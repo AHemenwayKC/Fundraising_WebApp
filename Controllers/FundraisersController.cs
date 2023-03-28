@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CS451R_Fundraiser.Data;
 using CS451R_Fundraiser.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace CS451R_Fundraiser.Controllers
 {
     public class FundraisersController : Controller
     {
         private readonly CS451R_FundraiserContext _context;
+        private readonly SignInManager<User> _signInManager;
 
-        public FundraisersController(CS451R_FundraiserContext context)
+        public FundraisersController(CS451R_FundraiserContext context, SignInManager<User> signInManager)
         {
             _context = context;
+            _signInManager = signInManager;
         }
 
         [HttpPost]
@@ -93,7 +96,15 @@ namespace CS451R_Fundraiser.Controllers
         // GET: Fundraisers/Create
         public IActionResult Create()
         {
-            return View();
+            if (User.Identity.IsAuthenticated) 
+            {
+                return View();
+            }
+            else
+            {
+                return View("~/Views/Shared/_LoginPartial.cshtml");
+            }
+            
         }
 
         // POST: Fundraisers/Create
