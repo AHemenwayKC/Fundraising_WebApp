@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v3zhLZIZX9gNHUTM33bW3KPMcNjf9FRCkElNf7e8r9mPJAumXCI/50ib98fqQxZrZ6/9MGEOjbIv7sCmWzNSvA==",
+  "dgSpecHash": "wsIMOqimjcq6JaduC3yKMFin/SMidaWBqkG3IGlFWGfmYGG+Tc+j7GOWK7kbQHkEqcQ+g2r48nKsmrOGA1d45g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
+  "projectFilePath": "C:\\Users\\kyleh\\OneDrive\\Documents\\GitHub\\CS451R_Fundraiser\\CS451R_Fundraiser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kyleh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kyleh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
