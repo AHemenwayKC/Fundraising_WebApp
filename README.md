@@ -23,3 +23,8 @@ Primary Objectives:
 - Back end:
    - Linking fundraisers to specific users (KH)
    - Creating donation features from one user to another (RB)
+
+Kyle's To Do:
+- Remove "Create New", "Edit", and "Delete" from public fundraisers list
+- Assign newly created fundraisers to specific user accounts
+- Add "My Fundraisers" section to user managment
