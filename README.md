@@ -16,6 +16,7 @@ Task list: (Put initials next to the task(s) you're working on)
 - Fix login partial and add login and register Functionality with the db (RB) - Completed
 - When "Launch a Fundraiser" is selected from navbar, end user should be prompted to create an account or login before being directed to fundraiser page. -(KH/RB)
 
+
 Primary Objectives:
 - Front end:
    - Landing page (DH)
@@ -23,6 +24,7 @@ Primary Objectives:
 - Back end:
    - Linking fundraisers to specific users (KH)
    - Creating donation features from one user to another (RB)
+
 
 Kyle's To Do:
 - Remove "Create New", "Edit", and "Delete" from public fundraisers list
