@@ -102,7 +102,7 @@ namespace CS451R_Fundraiser.Controllers
             }
             else
             {
-                return View("~/Views/Shared/_LoginPartial.cshtml");
+                return Redirect("~/Identity/Account/Login");
             }
             
         }

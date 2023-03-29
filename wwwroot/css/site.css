@@ -8,6 +8,7 @@ body {
 
 html {
     position: relative;
+    min-height: 100%;
 }
 /* ----- End General -------------------- */
 
@@ -200,8 +201,9 @@ section {
 #footer {
     background-color: #eee;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     line-height: 2;
+    position: absolute;
 }
 #footer h3 {
     margin: 0;
