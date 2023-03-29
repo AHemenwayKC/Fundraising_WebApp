@@ -1,14 +1,18 @@
-/* ----- Begin General ----- */
+/* ----- Begin General -------------------- */
 body {
     margin: 0;
     font-family: sans-serif;
     height: 100%;
     padding-top: 100px;
 }
-/* ----- End General ----- */
+
+html {
+    position: relative;
+}
+/* ----- End General -------------------- */
 
 
-/* ----- Begin Header ----- */
+/* ----- Begin Header -------------------- */
 header {
     display: flex;
     position: fixed;
@@ -32,10 +36,10 @@ header {
     header li {
         margin-left: 5px;
     }
-/* ----- End Header ----- */
+/* ----- End Header -------------------- */
 
 
-/* ----- Begin navbar ----- */
+/* ----- Begin navbar -------------------- */
 .navbar {
     padding: 0;
     box-shadow: none;
@@ -65,19 +69,18 @@ header {
     border: 2px solid #ff0000;
     text-align: right;
 }
-/* ----- End navbar ----- */
+/* ----- End navbar -------------------- */
 
 
-/* ----- Sections Begin ----- */
+/* ----- Sections Begin -------------------- */
 section {
-    padding: 150px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-size: cover; 
-    background-position: center center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
@@ -87,9 +90,10 @@ section {
     padding-bottom: 30px;
 }
 
-/* ----- Sections End ----- */
+/* ----- Sections End -------------------- */
 
-/* ----- Begin Hero ----- */
+
+/* ----- Begin Hero -------------------- */
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/9FFaMlu3o-dhstK0xjuazN3WDuCTbfQUS7nRL9DrrUM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuYnVzaW5lc3Np/bnNpZGVyLmNvbS9p/bWFnZS81ZDBkMDJm/ZGUzZWNiYTA1NzAz/NjE0YjMuanBn');
     width: 100%;
@@ -97,14 +101,18 @@ section {
     overflow: hidden;
 }
 
+.hero-list {
+    list-style-type: none;
+}
+
 #hero h2 {
     margin-bottom: 25px;
     font-size: 36px;
 }
-/* ----- End Hero ----- */
+/* ----- End Hero -------------------- */
 
 
-/* ----- Begin Milestones ----- */
+/* ----- Begin Milestones -------------------- */
 #milestones {
     padding: 20px 0;
     background-color: #172066;
@@ -113,7 +121,6 @@ section {
 
 .milestones .section-title {
     color: #eee;
-    font-weight: 700;
     padding-bottom: 50px;
 }
 
@@ -124,6 +131,7 @@ section {
     border-image: initial;
     border-radius: 20px;
     box-sizing: inherit;
+
 }
 
 .milestones .title {
@@ -145,64 +153,52 @@ section {
     font-size: 20px;
     padding: 10px;
 }
-/* ----- End Milestones ----- */
+/* ----- End Milestones -------------------- */
 
-/* ----- End Featured ----- */
+
+/* ----- Begin Featured -------------------- */
 #featured {
-    padding: 75px;
+    background-color: #3090bb;
+    padding: 50px;
     width: 100%;
 }
 
-.column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
+.featured .section-title {
+    color: #eee;
 }
 
-.feat-row {
-    display: flex;
-    margin: 0 -5px;
-}
-
-.feat-row:after {
-    display: table;
-}
-
-.feat-card {
-    flex-direction: row;
-    margin: 0;
+#feat-card {
+    height: 500px;
+    margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px 20px;
-    text-align: center;
+    padding: 20px 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-}
-/* ----- End Featured ----- */
-
-/* ----- Begin IDK where to put this stuff yet ----- */
-html {
-    position: relative;
-    min-height: 100%;
+.card-header .card-image {
+    overflow: hidden;
 }
 
-#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/oHGZ4XgJnl0XNgGyNYtLFPd0I_6oVh9ckU7R9F5aOeA/rs:fit:1200:1078:1/g:ce/aHR0cHM6Ly9ibHVl/c2t5Y29sbGFib3Jh/dGl2ZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMTAv/cm9ja2V0LTI2ODAy/ODJfMTkyMC5qcGc');
+.card-img-top {
+    background: url("../images/herobackground.jpg") no-repeat;
+    height: 275px;
+    width: 275px;
+    overflow: hidden;
 }
 
-#contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://imgs.search.brave.com/_SXQAWnV8wZLZAm6tHYklBHJNP3jSdw9El7oHt1b1vc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/bmFzYS5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy90aHVtYm5h/aWxzL2ltYWdlLzQy/Mzc0NzI1NTM0X2E2/NTNkMWI3Y2Jfay5q/cGc');
+/* ----- End Featured -------------------- */
+
+
+/* ----- Begin How It Works -------------------- */
+.how-it-works {
+    height: 75vh;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.50)), url("../images/launcharchway.jpg");
 }
-/* ----- End IDK where to put this stuff yet ----- */
+/* ----- End How It Works -------------------- */
 
 
-/* ----- Begin Footer ----- */
+/* ----- Begin Footer -------------------- */
 #footer {
+    background-color: #eee;
     text-align: center;
     padding: 20px 0;
     line-height: 2;
@@ -211,9 +207,4 @@ html {
     margin: 0;
     color: red;
 }
-
-#privacy {
-    color: green;
-    text-decoration: none;
-}
-/* ----- End Footer ----- */
+/* ----- End Footer -------------------- */
