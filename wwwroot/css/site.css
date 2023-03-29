@@ -69,7 +69,7 @@ header {
 
 /* ----- Sections Begin ----- */
 section {
-    padding: 500px;
+    padding: 150px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -146,6 +146,43 @@ section {
 }
 /* ----- End Milestones ----- */
 
+/* ----- End Featured ----- */
+#featured {
+    padding: 75px;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.feat-row {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.feat-row:after {
+    display: table;
+}
+
+.feat-card {
+    flex-direction: row;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+/* ----- End Featured ----- */
 
 /* ----- Begin IDK where to put this stuff yet ----- */
 html {

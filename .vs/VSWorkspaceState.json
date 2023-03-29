@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
     "\\Views",
     "\\Views\\Fundraisers",
     "\\Views\\Home",
     "\\Views\\Shared",
     "\\wwwroot",
     "\\wwwroot\\css",
-    "\\wwwroot\\lib"
+    "\\wwwroot\\lib",
+    "\\wwwroot\\lib\\bootstrap",
+    "\\wwwroot\\lib\\bootstrap\\dist"
   ],
   "SelectedNode": "\\CS451R_Fundraiser.sln",
   "PreviewInSolutionExplorer": false
