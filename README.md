@@ -13,10 +13,13 @@ Task list: (Put initials next to the task(s) you're working on)
    - Update Navbar logo to home page and fundraisers to correct page (AH) - Completed
    - Fix login partial and add login and register Functionality with the db (RB) - Completed
    - When "Launch a Fundraiser" is selected from navbar, end user should be prompted to create an account or login before being directed to fundraiser page. (KH) - Completed
+   - Add "My Fundraisers" section to user managment - Completed
+   - Remove "Create New", "Edit", and "Delete" from public fundraisers list - Completed
 - To-Do:
    - Design fundraiser creation page in HTML/CSS
    - Design user profile page in HTML/CSS (AY)
    - Redirect user to fundraiser creation page after login
+   - Assign newly created fundraisers to specific user accounts (KH)
 
 
 Primary Objectives:
@@ -26,9 +29,3 @@ Primary Objectives:
 - Back end:
    - Linking fundraisers to specific users (KH)
    - Creating donation features from one user to another (RB)
-
-
-Kyle's To Do:
-- Remove "Create New", "Edit", and "Delete" from public fundraisers list - Completed
-- Assign newly created fundraisers to specific user accounts
-- Add "My Fundraisers" section to user managment - Completed
