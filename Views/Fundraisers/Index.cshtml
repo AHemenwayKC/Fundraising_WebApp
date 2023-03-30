@@ -1,16 +1,13 @@
-﻿@model CS451R_Fundraiser.Models.FundraiserCategoryViewModel
+@model CS451R_Fundraiser.Models.FundraiserCategoryViewModel
 
 @{
-    ViewData["Title"] = "Fundraiser List";
+    ViewData["Title"] = "Fundraisers";
 }
 
-<h1>Fundraiser List</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h1>Browse Fundraisers</h1>
 
 <form asp-controller="Fundraisers" asp-action="Index" method="get">
+    <h2>Search</h2>
     <p>
         <select asp-for="FundraiserCategory" asp-items="Model.Categories">
             <option value="">All</option>
