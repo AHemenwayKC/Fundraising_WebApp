@@ -1,0 +1,18 @@
+﻿@page
+@model CS451R_Fundraiser.Models.FundraiserCategoryViewModel
+@{
+    ViewData["Title"] = "My Fundraisers";
+    ViewData["ActivePage"] = ManageNavPages.MyFundraisers;
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <p>You can use this page to view and edit your personal fundraisers.</p>
+    </div>
+</div>
+
+@section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+}
