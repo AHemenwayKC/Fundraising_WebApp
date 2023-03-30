@@ -16,6 +16,7 @@ Task list: (Put initials next to the task(s) you're working on)
 - To-Do:
    - Design fundraiser creation page in HTML/CSS
    - Design user profile page in HTML/CSS (AY)
+   - Redirect user to fundraiser creation page after login
 
 
 Primary Objectives:
