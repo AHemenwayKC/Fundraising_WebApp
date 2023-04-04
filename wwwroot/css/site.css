@@ -1,3 +1,5 @@
+/* CSS file. Styles affect pages across entire application. */
+
 /* ----- Begin General -------------------- */
 body {
     margin: 0;
@@ -25,7 +27,7 @@ header {
     background-color: #eee;
 }
 
-    header * {
+    header {
         display: inline-flex;
         height: 100px;
     }
@@ -44,6 +46,8 @@ header {
 .navbar {
     padding: 0;
     box-shadow: none;
+    position: relative;
+    background-color: #eee;
 }
 
 .navbar ul {
@@ -61,15 +65,19 @@ header {
 .navbar a {
     display: flex;
     justify-content: space-between;
+}
 
+.nav-link:hover {
+    font-weight: bold;
+    color: #172066;
 }
 
 #login {
     color: #ff0000;
-    padding: 8px 25px;
-    border: 2px solid #ff0000;
+    padding: 18px 25px;
     text-align: right;
 }
+
 /* ----- End navbar -------------------- */
 
 
@@ -159,19 +167,20 @@ section {
 
 /* ----- Begin Featured -------------------- */
 #featured {
-    background-color: #3090bb;
+    background-color: #eee;
     padding: 50px;
     width: 100%;
 }
 
 .featured .section-title {
-    color: #eee;
+    color: #3090bb;
 }
 
 #feat-card {
     height: 500px;
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
     padding: 20px 20px;
 }
 
@@ -179,12 +188,34 @@ section {
     overflow: hidden;
 }
 
-.card-img-top {
+.card-footer {
+    padding: 0;
+}
+
+.btn {
+    color: #eee;
+    font-weight: bold;
+    width: 100%;
+    background: #3090bb;
+    cursor: pointer;
+}
+.btn::before {
+    content: "Details";
+    color: #eee;
+    background: #3090bb;
+    transition: all .5s;
+}
+
+.btn:hover:before {
+    background: #3090bb;
+    content: "Go To Fundraiser";
+}
+
+/*.card-img-top {
     background: url("../images/herobackground.jpg") no-repeat;
     height: 275px;
     width: 275px;
-    overflow: hidden;
-}
+}*/
 
 /* ----- End Featured -------------------- */
 
