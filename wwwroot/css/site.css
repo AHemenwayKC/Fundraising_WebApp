@@ -226,6 +226,11 @@ section {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.50)), url("../images/launcharchway.jpg");
 }
 /* ----- End How It Works -------------------- */
+/**/
+.dashboard-main {
+    background: #3090BB;
+    width: 100%;
+}
 
 
 /* ----- Begin Footer -------------------- */
@@ -242,3 +247,4 @@ section {
     color: red;
 }
 /* ----- End Footer -------------------- */
+
