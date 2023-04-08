@@ -137,7 +137,14 @@ namespace CS451R_Fundraiser.Controllers
             {
                 return NotFound();
             }
-            return View(fundraiser);
+            if (User.Identity.IsAuthenticated)
+            {
+                return View(fundraiser);
+            }
+            else
+            {
+                return View("Invalid");
+            }
         }
 
         // POST: Fundraisers/Edit/5
@@ -204,8 +211,14 @@ namespace CS451R_Fundraiser.Controllers
             {
                 return NotFound();
             }
-
-            return View(fundraiser);
+            if (User.Identity.IsAuthenticated)
+            {
+                return View(fundraiser);
+            }
+            else
+            {
+                return View("Invalid");
+            }
         }
 
         // POST: Fundraisers/Delete/5
@@ -230,6 +243,28 @@ namespace CS451R_Fundraiser.Controllers
         private bool FundraiserExists(int id)
         {
           return (_context.Fundraiser?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        //Return donation view when "Donate" button is clicked
+        public async Task<IActionResult> Donate(int? id)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Donate(int id, [Bind("Id,amount,donateDate,userName,fundraiserId")] Donation donation, Fundraiser fundraiser)
+        {
+            var rand = new Random();
+            if (ModelState.IsValid)
+            {
+                donation.Id = rand.Next();
+                donation.fundraiserId = id;
+                _context.Add(donation);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(donation);
         }
     }
 }

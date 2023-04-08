@@ -14,13 +14,16 @@
         </select>
         
         Title: <input type="text" name="SearchString" />
-        <input type="submit" value="Filter" />
+        <input type="submit" value="Search" />
     </p>
 </form>
 
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fundraisers![0].Id)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Fundraisers![0].Title)
             </th>
@@ -40,6 +43,9 @@
 @foreach (var item in Model.Fundraisers!) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
@@ -54,6 +60,7 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Donate" asp-route-id="@item.Id">Donate</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>

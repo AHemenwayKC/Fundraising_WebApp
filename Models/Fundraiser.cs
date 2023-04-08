@@ -31,11 +31,15 @@ namespace CS451R_Fundraiser.Models
     public class Donation
     {
         public int Id { get; set; }
+        [Display(Name = "Amount")]
         public int amount { get; set; }
+        [Display(Name = "Donate Date")]
         [DataType(DataType.Date)]
         public DateTime donateDate { get; set; }
+        [Display(Name = "User Name")]
         public string? userName { get; set; }
         //public string? userEmail { get; set; }
+        [Display(Name = "Fundraiser ID")]
         public int fundraiserId { get; set; }
     }
 }
