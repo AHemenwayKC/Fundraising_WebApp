@@ -15,6 +15,7 @@ Task list: (Put initials next to the task(s) you're working on)
    - When "Launch a Fundraiser" is selected from navbar, end user should be prompted to create an account or login before being directed to fundraiser page. (KH) - Completed
    - Add "My Fundraisers" section to user managment (KH) - Completed
    - Remove "Create New", "Edit", and "Delete" from public fundraisers list (KH) - Completed
+   - Create donation feature on existing fundraisers (KH) - Completed
 - To-Do:
    - Design fundraiser creation page in HTML/CSS
    - Design user profile page in HTML/CSS (AY)
@@ -28,4 +29,3 @@ Primary Objectives:
    - User dashboard (AY)
 - Back end:
    - Linking fundraisers to specific users (KH)
-   - Creating donation features from one user to another (RB)
