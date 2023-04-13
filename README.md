@@ -16,11 +16,6 @@ Task list: (Put initials next to the task(s) you're working on)
    - Add "My Fundraisers" section to user managment (KH) - Completed
    - Remove "Create New", "Edit", and "Delete" from public fundraisers list (KH) - Completed
    - Create donation feature on existing fundraisers (KH) - Completed
-- To-Do:
-   - Design fundraiser creation page in HTML/CSS
-   - Design user profile page in HTML/CSS (AY)
-   - Redirect user to fundraiser creation page after login
-   - Assign newly created fundraisers to specific user accounts (KH)
 
 - Unit Testing:
    - Login functionality
@@ -33,8 +28,7 @@ Plan of Action:
       - General styling (KH/DH)
    - Back end:
       - Linking fundraisers to specific users (RB)
-      - Adding payment feature to donations (KH)
-      - Add pictures to the database (KH)
+      - Adding payment feature to donations (KH) - Completed
    - Other:
       - Accessibility Audit (DH)
       - Unit testing (KH/RB/DH)
