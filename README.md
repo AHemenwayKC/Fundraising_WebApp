@@ -22,15 +22,21 @@ Task list: (Put initials next to the task(s) you're working on)
    - Redirect user to fundraiser creation page after login
    - Assign newly created fundraisers to specific user accounts (KH)
 
+- Unit Testing:
+   - Login functionality
 
 Plan of Action:
 - Part 1: (4/12 - 4/21)
    - Front end:
       - Landing page (DH)
       - User dashboard (AY)
+      - General styling (KH/DH)
    - Back end:
       - Linking fundraisers to specific users (RB)
       - Adding payment feature to donations (KH)
+      - Add pictures to the database (KH)
    - Other:
       - Accessibility Audit (DH)
-      - Unit testing (KH/RB)
+      - Unit testing (KH/RB/DH)
+- Part 2: (4/21 - 4/30)
+   - Project documentation (Everyone)
