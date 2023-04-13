@@ -7,11 +7,41 @@
 
 <h3>@ViewData["Title"]</h3>
 
-<div class="row">
-    <div class="col-md-6">
-        <p>You can use this page to view and edit your personal fundraisers.</p>
-    </div>
-</div>
+<html>
+    <body>
+    <section class="dashboard-main">
+        <div class="container">
+            <div class="row row-cols-2">
+                <div class="col-4">
+                    <h7>*Users Photo*</h7>
+                    <div class="col-lg-8 order-1 order-lg-2">
+                        <!-- Users profile picture.-->
+                        <img src="image.jpg" class="img-fluid" alt="">
+                    </div>
+                    <h2>Name</h2>
+                    <ul class="hero-list">
+                     <li><a href="payment.html"><h4 style="color: black;">Payment</h4></a></li>
+                     <li><a href="#"><h4 style="color: black;">Settings</h4></a></li>
+                    </ul>
+                </div>
+                <div class="col-8">
+                    <h6> User Information</h6>
+                    <div class="row row-cols-3">
+                        <div>Username: 123</div>
+                        <div>Password: 123</div
+                    </div>
+                    <div class="row">
+                        <div>Email: abc@gmali.com</div>
+                        <div>Address: 123 street</div>
+                    </div>
+                        <div class="row text-black"><button type ="button">Update Profile</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
 
 @section Scripts {
         <partial name="_ValidationScriptsPartial" />
