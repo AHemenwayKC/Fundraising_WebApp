@@ -87,7 +87,6 @@ namespace CS451R_Fundraiser.Controllers
             {
                 Fundraiser = fundraiser,
                 Donations = await donations.ToListAsync()
-                
             };
 
             return View(fundraiserDonationvm);
@@ -253,7 +252,7 @@ namespace CS451R_Fundraiser.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Donate(int id, [Bind("Id,amount,donateDate,userName,fundraiserId")] Donation donation, Fundraiser fundraiser)
+        public async Task<IActionResult> Donate(int id, [Bind("Id,amount,donateDate,userName,cardNum,fundraiserId")] Donation donation, Fundraiser fundraiser)
         {
             var rand = new Random();
             if (ModelState.IsValid)

@@ -31,14 +31,24 @@ namespace CS451R_Fundraiser.Models
     public class Donation
     {
         public int Id { get; set; }
-        [Display(Name = "Amount")]
+        [Display(Name = "Donation Amount")]
         public int amount { get; set; }
-        [Display(Name = "Donate Date")]
+        [Display(Name = "Donation Date")]
         [DataType(DataType.Date)]
         public DateTime donateDate { get; set; }
         [Display(Name = "User Name")]
         public string? userName { get; set; }
-        //public string? userEmail { get; set; }
+        [Display(Name = "Card Number")]
+        public string? cardNum { get; set; }
+        [Display(Name = "Expiration Date")]
+        [DataType(DataType.Date)]
+        public DateTime expirationDate { get; set; }
+        [Display(Name = "CVV")]
+        public int CVV { get; set; }
+        [Display(Name = "Name on Card")]
+        public string? fullName { get; set; }
+        [Display(Name = "Zip Code")]
+        public int zipCode { get; set; }
         [Display(Name = "Fundraiser ID")]
         public int fundraiserId { get; set; }
     }
