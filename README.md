@@ -23,9 +23,14 @@ Task list: (Put initials next to the task(s) you're working on)
    - Assign newly created fundraisers to specific user accounts (KH)
 
 
-Primary Objectives:
-- Front end:
-   - Landing page (DH)
-   - User dashboard (AY)
-- Back end:
-   - Linking fundraisers to specific users (KH)
+Plan of Action:
+- Part 1: (4/12 - 4/21)
+   - Front end:
+      - Landing page (DH)
+      - User dashboard (AY)
+   - Back end:
+      - Linking fundraisers to specific users (RB)
+      - Adding payment feature to donations (KH)
+   - Other:
+      - Accessibility Audit (DH)
+      - Unit testing (KH/RB)
