@@ -211,21 +211,13 @@ section {
     content: "Go To Fundraiser";
 }
 
-/*.card-img-top {
+.card-img-top {
     background: url("../images/herobackground.jpg") no-repeat;
     height: 275px;
     width: 275px;
-}*/
+}
 
 /* ----- End Featured -------------------- */
-
-
-/* ----- Begin How It Works -------------------- */
-.how-it-works {
-    height: 75vh;
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.50)), url("../images/launcharchway.jpg");
-}
-/* ----- End How It Works -------------------- */
 
 
 /* ----- Begin Footer -------------------- */
