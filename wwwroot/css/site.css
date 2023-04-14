@@ -192,21 +192,21 @@ section {
     padding: 0;
 }
 
-.btn {
+.btn2 {
     color: #eee;
     font-weight: bold;
     width: 100%;
     background: #3090bb;
     cursor: pointer;
 }
-.btn::before {
+.btn2::before {
     content: "Details";
     color: #eee;
     background: #3090bb;
     transition: all .5s;
 }
 
-.btn:hover:before {
+.btn2:hover:before {
     background: #3090bb;
     content: "Go To Fundraiser";
 }
