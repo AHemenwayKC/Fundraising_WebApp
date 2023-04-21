@@ -11,6 +11,18 @@ namespace CS451R_Fundraiser.Controllers
             return View("Index");
         }
 
+        public IActionResult Dashboard()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                return View();
+            }
+            else
+            {
+                return Redirect("~/Identity/Account/Login");
+            }
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

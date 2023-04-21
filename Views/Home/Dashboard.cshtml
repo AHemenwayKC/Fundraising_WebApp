@@ -3,46 +3,55 @@
 }
 <h1>@ViewData["Title"]</h1>
 <html>
-    <body>
-    <section class="dashboard-main">
-        <div class="container p-3 my-5 bg-dark text-white">
-            <div class="row row-cols-2">
-                <div class="col">
-                    <h7 class="herotitle">*Users Photo*</h7>
-                    <div class="col-lg-8 order-1 order-lg-2">
-                        <!-- Users profile picture.-->
-                        <img src="image.jpg" class="img-fluid" alt="">
+<body>
+    <section id="hero">
+        <div class="container py-5 h-30">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-lg-6 mb-4 mb-lg-0">
+                    <div class="card mb-3" style="border-radius: .5rem;">
+                        <div class="row g-0">
+                            <div class="col-md-4 gradient-black text-center text-black"
+                                 style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                <img src="image.jpg"
+                                     alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                                <h5>The Users Name</h5>
+                                <br />
+                                <br />
+                                <button type="button" class="btn btn-dark">Update Profile</button>
+                                <i class="far fa-edit mb-5"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <h6>Information</h6>
+                                    <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Email</h6>
+                                            <p class="text-muted">info@example.com</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Phone</h6>
+                                            <p class="text-muted">XXX XXX XXXX</p>
+                                        </div>
+                                    </div>
+                                    <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                        <div class="col-6 mb-3">
+                                            <h6>Username</h6>
+                                            <p class="text-muted">abc123</p>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <h6>Password</h6>
+                                            <p class="text-muted">12345</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="hero-title">Name</h2>
-                    <ul class="hero-list">
-                     <li><a href="payment.html"><h4 style="color: white;">Payment</h4></a></li>
-                     <li><a href="#"><h4 style="color: white;">Settings</h4></a></li>
-                    </ul>
-                </div>
-                <div class="col-5">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <h6> User Information</h6>
-                    <div class="row">
-                        <div class="col text-white">Username: 123</div>
-                        <div class="col text-white">Password: 123</div>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="row">
-                        <div class="col text-white">Email: abc@gmali.com</div>
-                        <div class="col text-white">Address: 123 street</div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col text-white"><button type ="button">Update Profile</button></div>
-                    </div>
-                </>
-                    <div class=""
                 </div>
             </div>
         </div>
     </section>
-    </body>
+</body>
 </html>
