@@ -17,8 +17,6 @@ Task list: (Put initials next to the task(s) you're working on)
    - Remove "Create New", "Edit", and "Delete" from public fundraisers list (KH) - Completed
    - Create donation feature on existing fundraisers (KH) - Completed
 
-- Unit Testing:
-   - Login functionality
 
 Plan of Action:
 - Part 1: (4/12 - 4/21)
@@ -33,4 +31,11 @@ Plan of Action:
       - Accessibility Audit (DH)
       - Unit testing (KH/RB/DH)
 - Part 2: (4/21 - 4/30)
-   - Project documentation (Everyone)
+   - Project documentation:
+      - Requirement Docs (DH)
+      - Project Plan Doc (DH)
+      - Architecture (RB)
+      - Test Documents (KH)
+      - Team Effort Estimation (Everyone)
+      - User Guide (AY)
+      - Powerpoint (Everyone)
