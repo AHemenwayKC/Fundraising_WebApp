@@ -6,16 +6,18 @@ Task list: (Put initials next to the task(s) you're working on)
    - Create fundraiser controller (KH) - Completed
    - Link PostgreSQL server to web app (RB) - Completed
    - Create login partial (RB) - Completed
-   - Design home page in HTML/CSS (KH/DH) - Completed
+   - Design home page in HTML/CSS (DH) - Completed
+   - Design user dashboard in HTML/CSS (AY) - Completed
    - Create model for user account data (RB) - Completed
    - Create model for donations (RB) - Completed
    - Add attributes for credit card in the user model (RB) - Completed
    - Update Navbar logo to home page and fundraisers to correct page (AH) - Completed
    - Fix login partial and add login and register Functionality with the db (RB) - Completed
    - Require user to login before creating fundraiser (KH) - Completed
-   - Add "My Fundraisers" section to user managment (KH) - Completed
-   - Remove "Create New", "Edit", and "Delete" from public fundraisers list (KH) - Completed
+   - Create separate page for user dashboard (KH) - Completed
+   - Limit access to "Create New", "Edit", and "Delete" to logged in users (KH) - Completed
    - Create donation feature on existing fundraisers (KH) - Completed
+   - Adding payment feature to donations (KH) - Completed
 
 
 Plan of Action:
