@@ -12,7 +12,7 @@ Task list: (Put initials next to the task(s) you're working on)
    - Add attributes for credit card in the user model (RB) - Completed
    - Update Navbar logo to home page and fundraisers to correct page (AH) - Completed
    - Fix login partial and add login and register Functionality with the db (RB) - Completed
-   - When "Launch a Fundraiser" is selected from navbar, end user should be prompted to create an account or login before being directed to fundraiser page. (KH) - Completed
+   - Require user to login before creating fundraiser (KH) - Completed
    - Add "My Fundraisers" section to user managment (KH) - Completed
    - Remove "Create New", "Edit", and "Delete" from public fundraisers list (KH) - Completed
    - Create donation feature on existing fundraisers (KH) - Completed
