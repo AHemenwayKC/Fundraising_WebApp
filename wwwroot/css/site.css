@@ -253,3 +253,14 @@ section {
     color: red;
 }
 /* ----- End Footer -------------------- */
+
+/* ----- Begin dashboard --------------------- */
+
+#dashboard {
+    background-image: linear-gradient(rgba(90,90,90,0.75),rgba(90,90,90,0.80)), url("../images/herobackground.jpg");
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+}
+
+/* ----- End Dashboard --------------------- */
